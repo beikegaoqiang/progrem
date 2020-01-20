@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import App from './Router';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'mobx-react'
 import AppStore  from '../src/store/index'

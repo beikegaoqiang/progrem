@@ -13,7 +13,7 @@ function App() {
       <Route path="/about" component={List} />
       <Route path="/topics" component={Wenti} />
       <div style={{textAlign:'center'}} className="fixed">
-        <Flex>
+        <Flex style={{textAlign:'center'}}>
       <Flex.Item> <Link to='/'>首页</Link></Flex.Item>
       <Flex.Item><Link to='/about'>列表页</Link></Flex.Item>
       <Flex.Item><Link to='/topics'>问题页</Link></Flex.Item>
