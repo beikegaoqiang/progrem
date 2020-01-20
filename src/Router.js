@@ -4,7 +4,7 @@ import Home from './page/Home.jsx'
 import List from './page/List.jsx'
 import Wenti from './page/Wenti.jsx'
 import { Flex } from 'antd-mobile';
-import './App.css'
+import './App.less'
 function App() {
   return (
     <Router>
