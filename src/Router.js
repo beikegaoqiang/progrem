@@ -13,15 +13,16 @@ function App() {
       <Route path="/about" component={List} />
       <Route path="/topics" component={Wenti} />
       <div style={{textAlign:'center'}} className="fixed">
-        <Flex style={{textAlign:'center'}}>
-      <Flex.Item> <Link to='/'>首页</Link></Flex.Item>
-      <Flex.Item><Link to='/about'>列表页</Link></Flex.Item>
-      <Flex.Item><Link to='/topics'>问题页</Link></Flex.Item>
-    </Flex>
+      <Flex style={{textAlign:'center'}}>
+      <Flex.Item> <Link to='/'>主页</Link></Flex.Item>
+      <Flex.Item><Link to='/about'>资料室</Link></Flex.Item>
+      <Flex.Item><Link to='/topics'>学习圈</Link></Flex.Item>
+      <Flex.Item><Link to='/topics'>模型库</Link></Flex.Item>
+      <Flex.Item><Link to='/topics'>我的</Link></Flex.Item>
+      </Flex>
       </div>
       </div>
-    </Router>
-    
+      </Router>
   );
 }
 
